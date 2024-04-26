@@ -1,0 +1,129 @@
+/* Основа */
+:root {
+  --color-main-dark: #011c44;
+  --color-main-blue: #2b7fff;
+  --color-main-white: #ffffff;
+}
+
+body {
+  color: var(--color-main-dark);
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* База */
+
+.h1 {
+  color: var(--color-main-blue);
+  font-family: 'Play';
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 81%;
+}
+
+address {
+  font-style: normal;
+}
+
+.accent {
+  color: var(--color-main-blue);
+}
+
+.secti {
+  font-family: 'play';
+  font-size: 64px;
+}
+
+.accent2 {
+  line-height: 173%;
+}
+
+.accent3 {
+  line-height: 133%;
+  font-size: 18px;
+}
+.accent4 {
+  font-weight: 700;
+  font-size: 22px;
+}
+.px18 {
+  font-size: 18px;
+}
+.px12 {
+  font-size: 12px;
+}
+
+/* Кнопка */
+.button {
+  color: var(--color-main-white);
+  background-color: var(--color-main-blue);
+  border-radius: 32px;
+  border: 2px solid var(--color-main-blue);
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: transparent;
+  border: 2px solid var(--color-main-blue);
+  color: black;
+}
+
+.buttonsocial {
+  cursor: pointer;
+}
+/* Посылание */
+
+.link {
+  color: var(--color-main-dark);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.link:hover {
+  color: var(--color-main-blue);
+  font-weight: 700;
+}
+.link-1:hover {
+  color: var(--color-main-blue);
+}
+
+.link2 {
+  color: var(--color-main-white);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.link2:hover {
+  color: var(--color-main-blue);
+  font-weight: 700;
+}
+
+/* Адресс */
+
+.address {
+  color: var(--color-main-white);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.address2 {
+  font-size: 13px;
+  color: #747272;
+}
+
+.address:hover {
+  color: var(--color-main-blue);
+  font-weight: 700;
+}
+
+/* footer */
+.footer {
+  background-color: #011c44;
+}
